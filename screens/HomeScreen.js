@@ -1,5 +1,3 @@
-// screens/HomeScreen.js
-
 import React, { useEffect, useState } from "react";
 import {
   StyleSheet,
@@ -80,7 +78,10 @@ const HomeScreen = ({ navigation }) => {
           />
         ))
       )}
-      <Button title="Add New User" onPress={handleAddUser} />
+      <Button
+        title="Add New Card"
+        onPress={() => navigation.navigate("Form")}
+      />
     </ScrollView>
   );
 };

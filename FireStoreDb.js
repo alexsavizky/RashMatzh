@@ -18,6 +18,16 @@ class DB {
       throw e;
     }
   }
+  async addNewDocument(collectionName, data) {
+    try {
+      const docRef = await addDoc(collection(this.db, collectionName), data);
+      console.log("Document written with ID: ", docRef.id);
+      return docRef.id;
+    } catch (e) {
+      console.error("Error adding document: ", e);
+      throw e;
+    }
+  }
 }
 
 export default new DB();
