@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies
@@ -164,10 +165,13 @@ web_modules/
 # Optional stylelint cache
 .stylelintcache
 
+=======
+>>>>>>> origin/main
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
 .rts2_cache_es/
+<<<<<<< HEAD
 .rts2_cache_umd/
 
 # Optional REPL history
@@ -303,3 +307,5 @@ gradle-app.setting
 .classpath
 
 # End of https://www.toptal.com/developers/gitignore/api/react,reactnative
+=======
+>>>>>>> origin/main
